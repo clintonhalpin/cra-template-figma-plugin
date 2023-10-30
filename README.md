@@ -1,14 +1,14 @@
 # cra-template-figmaplugin
 
-Use create react app to build a Figma Plugin
+Use create react app to build a Figma Plugin, supafast
 
-
-To use this template, add `--template typescript` when creating a new app.
-
-For example:
+To use this template run the following
 
 ```sh
 npx create-react-app figmaPluginName --template file:/Users/chalpin/Sites/p/cra-template-figma-plugin && cd figmaPluginName && ./src/post-install.sh
+pnpm run build
+# Open in Figma
+# Right click on layer, Import Plugin from manifest, Select Plugin
 ```
 
 For more information, please refer to:
