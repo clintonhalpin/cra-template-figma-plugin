@@ -8,11 +8,7 @@ To use this template, add `--template typescript` when creating a new app.
 For example:
 
 ```sh
-npx create-react-app my-app --template typescript
-
-# or
-
-yarn create react-app my-app --template typescript
+npx create-react-app figmaPluginName --template file:/Users/chalpin/Sites/p/cra-template-figma-plugin && cd figmaPluginName && ./src/post-install.sh
 ```
 
 For more information, please refer to:

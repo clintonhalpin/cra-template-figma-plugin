@@ -32,6 +32,6 @@ mv index_inlined.html index.html
 cd ..
 
 # Compile the TypeScript file.
-tsc plugin.ts --outDir build --esModuleInterop || { echo "Failed to compile plugin.ts"; exit 1; }
+npx tsc plugin.ts --outDir build --esModuleInterop || { echo "Failed to compile plugin.ts"; }
 
 # The file will already be named plugin.js, so there's no need to rename it.

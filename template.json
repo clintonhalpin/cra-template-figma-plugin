@@ -12,6 +12,9 @@
       "web-vitals": "^2.1.0",
       "@types/figma": "^1.0.6"
     },
+    "devDependencies": {
+      "inline-source-cli": "^2.0.0"
+    },
     "scripts": {
       "build": "react-scripts build && ./inline-build.sh"
     },
