@@ -1,0 +1,16 @@
+{
+    "api": "1.0.0",
+    "name": "Create React App Figma Plugin",
+    "main": "build/plugin.js",
+    "ui": "build/index.html",
+    "id": "1300126791658322599",
+    "editorType": [
+        "figma"
+    ],
+    "networkAccess": {
+        "allowedDomains": [
+            "*"
+        ],
+        "reasoning": "We need to access the Network"
+    }
+}
